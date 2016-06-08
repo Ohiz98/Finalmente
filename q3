@@ -2,12 +2,30 @@
 
 A.  Explain how digital signature works with public/private keypairs.
 
+The digital signature is used to secure the file's copyright ownership while allowing the public to access it thus there are two keys 
+involved in it, public and private. Private key is known only by the person who owns it while public key can be shared to other people. 
+Private key can generate the public key showing the the proof of existence and ownership.
+
 B.  Identify your favorite Java project this semester.  
     Describe two things you learned by doing the project.
     Describe two ways in which the project could be improved or expanded.
+
+My favourite java project was the Merkel tree where we had to deal with hash as well as tree nodes.
+
+I learned how to construct a merkel tree with the hashes of the files and create one mother hash and also I learned to make nodes(double way nodes) and learned how to connect them in a certain order.
+    
+By adding more dimensions to the tree so that we can stack a lot of different tress and connect them. We can also use merkel tree to create our own blockchain.
+    
     
 C.  Describe two advantages of object-oriented programming.
     Describe two disadvantages of object-oriented programming.
+    
+It is easy to debug because it is seperated into different sections.
+Objects are flexible and thus can be changed and used in multiple ways.
+
+The content is big and so it requires a lot of coding and bigger space. 
+They are slower because a lot of executions are in need to be done.
+        
     
 D.  Consider the following PYTHON code for the MNode class given below.
     What is the difference in the way Python and Java handle the declaration of datatypes?
@@ -49,3 +67,9 @@ class MNode:
         
         return read
 -----------------------------------------------------------------------------
+
+In java, once you declare any object of a specific datatype, you cant change it while in Python it is possible to do.
+    
+In Java, we have to declare whether the method is public or private and needs more information input from the coder to run while python is not as specific about the attributes of certain things.
+    
+I prefer Java, the indentation in python is rather confusing making it more difficult. Also Java is also simpler.
